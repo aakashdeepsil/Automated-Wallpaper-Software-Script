@@ -4,9 +4,9 @@ import ctypes
 import time
 
 def get_wallpaper():
-  access = '999bf26be30b247454de4dde732bf9a3a2881abf10446daf70a0a427bc7d176d'
+  access = ''                                             #add your access key when you have registered as a developer
   
-  url = 'https://api.unsplash.com/photos/random/?client_id=999bf26be30b247454de4dde732bf9a3a2881abf10446daf70a0a427bc7d176d'
+  url = 'https://api.unsplash.com/photos/random/?client_id='+access
   
   params = {
     "query": "HD wallpapers",
